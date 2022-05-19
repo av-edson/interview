@@ -13,6 +13,8 @@ class Files:
     
     def clean_files(self):
         self.file_values=[]
+        self.processed_files=[]
+        self.not_aplicable_files=[]
     
     def set_path(self,path):
         self.path = path
